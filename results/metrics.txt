@@ -1,0 +1,83 @@
+################################################
+#              PARTICIPANT DETAILS             #
+################################################
+
+id_arr 				# participant id
+conditions_arr 			# condition
+starting_task_arr 		# starting task
+starting_interruption_arr 	# starting interruption
+
+
+################################################
+#              ASSESSMENT METRICS              #
+################################################
+
+a_i_name      			# interruption (i) name
+a_i_count     			# total number of interruptions given
+a_i_percentage  		# percentage of average correctness across interruptions
+a_i_time      			# time during correct responses to interruptions
+a_i_times     			# aggregated time of average times for interruptions
+
+a_p_name                  	# primary (p) task name
+a_p_count                 	# total number of tasks given
+a_p_correctness           	# weighted correctness across all tasks
+a_p_time                  	# time during correct responses to tasks
+a_p_times                 	# average times to complete tasks
+a_p_percentage            	# percentage of average correctness across tasks (draw only)
+a_p_percentage100         	# percentages of 100% correct responses to tasks (draw only)
+a_p_resumption            	# time to resume after interruption (hanoi only ??)
+a_p_resumptions           	# times to resume after interruptions (hanoi only ??)
+a_p_interruptions         	# total number of consective batch of interruptions during task (hanoi only)
+a_p_movestotal            	# total number of moves to complete all tasks (hanoi only)
+a_p_movetasktime          	# average time after a move (hanoi only)
+a_p_moveinterruptedtime   	# average time to move after interruption (hanoi only ??)
+
+
+################################################
+#               TRAINING METRICS               #
+################################################
+
+tr_i_name          		# interruption name
+tr_i_count         		# total number of interruptions given
+tr_i_percentage    		# percentage of correct reposnses
+tr_i_time          		# time during correct responses to interruptions
+tr_i_times         		# aggregated time of average times for interruptions
+
+tr_p_name                  	# primary (p) task name
+tr_p_count                 	# total number of tasks given
+tr_p_correctness           	# weighted correctness across all tasks
+tr_p_time                  	# time during correct responses to tasks
+tr_p_times                 	# average times to complete tasks
+tr_p_percentage            	# percentage of average correctness across tasks (draw only)
+tr_p_percentage100         	# percentages of 100% correct responses to tasks (draw only)
+tr_p_resumption            	# time to resume after interruption (hanoi only ??)
+tr_p_resumptions           	# times to resume after interruptions (hanoi only ??)
+tr_p_interruptions         	# total number of consecutive batch of interruptions during task (hanoi only)
+tr_p_movestotal            	# total number of moves to complete all tasks (hanoi only)
+tr_p_movetasktime          	# average time after a move (hanoi only)
+tr_p_moveinterruptedtime   	# average time to move after interruption (hanoi only ??)
+
+
+################################################
+#                TESTING METRICS               #
+################################################
+
+te_i_name          		# interruption name
+te_i_count         		# total number of interruptions given
+te_i_percentage    		# percentage of correct reposnses
+te_i_time          		# time during correct responses to interruptions
+te_i_times         		# aggregated time of average times for interruptions
+
+te_p_name                  	# primary (p) task name
+te_p_count                 	# total number of tasks given
+te_p_correctness           	# correctness across all tasks
+te_p_time                  	# time during correct responses to tasks
+te_p_times                 	# average times to complete tasks
+te_p_percentage            	# percentage of average correctness across tasks (draw only)
+te_p_percentage100         	# percentages of 100% correct responses to tasks (draw only)
+te_p_resumption            	# time to resume after interruption (hanoi only ??)
+te_p_resumptions           	# times to resume after interruptions (hanoi only ??)
+te_p_interruptions         	# total number of consective batch of interruptions during task (hanoi only)
+te_p_movestotal            	# total number of moves to complete all tasks (hanoi only)
+te_p_movetasktime          	# average time after a move (hanoi only)
+te_p_moveinterruptedtime   	# average time to move after interruption (hanoi only ??)
